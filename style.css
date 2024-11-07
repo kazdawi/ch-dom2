@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#color-box {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 128, 0, 0.564);
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+#change-color-btn {
+    padding: 2%;
+    border: 2px rgba(0, 128, 0, 0.564);
+    box-shadow: 0px 0px 2px 0px;
+    color: rgba(0, 128, 0, 0.564);
+}
